@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A115AD2922B48EB700E20F0F /* AddLocationPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115AD2822B48EB700E20F0F /* AddLocationPart2.swift */; };
+		A115AD2B22B4A75B00E20F0F /* listOfStuLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115AD2A22B4A75B00E20F0F /* listOfStuLocations.swift */; };
+		A1D6CF0622AEEF15001873AD /* studentDetiledInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D6CF0522AEEF15001873AD /* studentDetiledInformation.swift */; };
+		A1D6CF0822AF166D001873AD /* Addlocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D6CF0722AF166D001873AD /* Addlocation.swift */; };
+		A1D6CF0A22AF2CF3001873AD /* StusentLocationGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D6CF0922AF2CF3001873AD /* StusentLocationGlobal.swift */; };
+		A1D6CF0C22AF4C46001873AD /* LocationResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D6CF0B22AF4C46001873AD /* LocationResultCell.swift */; };
 		A1E466C122A07409004AE4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466C022A07409004AE4EE /* AppDelegate.swift */; };
-		A1E466C322A07409004AE4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466C222A07409004AE4EE /* ViewController.swift */; };
 		A1E466C622A07409004AE4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E466C422A07409004AE4EE /* Main.storyboard */; };
 		A1E466C822A0740A004AE4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E466C722A0740A004AE4EE /* Assets.xcassets */; };
 		A1E466CB22A0740A004AE4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E466C922A0740A004AE4EE /* LaunchScreen.storyboard */; };
 		A1E466D622A0740A004AE4EE /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466D522A0740A004AE4EE /* OnTheMapTests.swift */; };
 		A1E466E122A0740A004AE4EE /* OnTheMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466E022A0740A004AE4EE /* OnTheMapUITests.swift */; };
+		A1E466F322A07566004AE4EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466F222A07566004AE4EE /* LoginViewController.swift */; };
+		A1E466F522A077F2004AE4EE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466F422A077F2004AE4EE /* MapViewController.swift */; };
+		A1E466FB22A08A90004AE4EE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466FA22A08A90004AE4EE /* File.swift */; };
+		A1E466FD22A08AD2004AE4EE /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466FC22A08AD2004AE4EE /* login.swift */; };
+		A1E466FF22A0A8A8004AE4EE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E466FE22A0A8A8004AE4EE /* UserInfo.swift */; };
+		A1E4670122A0AB57004AE4EE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E4670022A0AB57004AE4EE /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A115AD2822B48EB700E20F0F /* AddLocationPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationPart2.swift; sourceTree = "<group>"; };
+		A115AD2A22B4A75B00E20F0F /* listOfStuLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfStuLocations.swift; sourceTree = "<group>"; };
+		A1D6CF0522AEEF15001873AD /* studentDetiledInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDetiledInformation.swift; sourceTree = "<group>"; };
+		A1D6CF0722AF166D001873AD /* Addlocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addlocation.swift; sourceTree = "<group>"; };
+		A1D6CF0922AF2CF3001873AD /* StusentLocationGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StusentLocationGlobal.swift; sourceTree = "<group>"; };
+		A1D6CF0B22AF4C46001873AD /* LocationResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResultCell.swift; sourceTree = "<group>"; };
 		A1E466BD22A07409004AE4EE /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E466C022A07409004AE4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1E466C222A07409004AE4EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1E466C522A07409004AE4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1E466C722A0740A004AE4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E466CA22A0740A004AE4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		A1E466DC22A0740A004AE4EE /* OnTheMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E466E022A0740A004AE4EE /* OnTheMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapUITests.swift; sourceTree = "<group>"; };
 		A1E466E222A0740A004AE4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E466F222A07566004AE4EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A1E466F422A077F2004AE4EE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A1E466FA22A08A90004AE4EE /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A1E466FC22A08AD2004AE4EE /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		A1E466FE22A0A8A8004AE4EE /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A1E4670022A0AB57004AE4EE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +120,11 @@
 			isa = PBXGroup;
 			children = (
 				A1E466C022A07409004AE4EE /* AppDelegate.swift */,
-				A1E466C222A07409004AE4EE /* ViewController.swift */,
-				A1E466C422A07409004AE4EE /* Main.storyboard */,
-				A1E466C722A0740A004AE4EE /* Assets.xcassets */,
-				A1E466C922A0740A004AE4EE /* LaunchScreen.storyboard */,
 				A1E466CC22A0740A004AE4EE /* Info.plist */,
+				A1D6CF0922AF2CF3001873AD /* StusentLocationGlobal.swift */,
+				A1E466F122A07474004AE4EE /* Controller */,
+				A1E466EF22A0745B004AE4EE /* View */,
+				A1E466EE22A07452004AE4EE /* Model */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -123,6 +145,41 @@
 				A1E466E222A0740A004AE4EE /* Info.plist */,
 			);
 			path = OnTheMapUITests;
+			sourceTree = "<group>";
+		};
+		A1E466EE22A07452004AE4EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1E466FE22A0A8A8004AE4EE /* UserInfo.swift */,
+				A1D6CF0522AEEF15001873AD /* studentDetiledInformation.swift */,
+				A1E4670022A0AB57004AE4EE /* API.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1E466EF22A0745B004AE4EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1E466C422A07409004AE4EE /* Main.storyboard */,
+				A1E466C722A0740A004AE4EE /* Assets.xcassets */,
+				A1E466C922A0740A004AE4EE /* LaunchScreen.storyboard */,
+				A1E466FA22A08A90004AE4EE /* File.swift */,
+				A1E466FC22A08AD2004AE4EE /* login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1E466F122A07474004AE4EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1E466F222A07566004AE4EE /* LoginViewController.swift */,
+				A1E466F422A077F2004AE4EE /* MapViewController.swift */,
+				A115AD2A22B4A75B00E20F0F /* listOfStuLocations.swift */,
+				A1D6CF0722AF166D001873AD /* Addlocation.swift */,
+				A115AD2822B48EB700E20F0F /* AddLocationPart2.swift */,
+				A1D6CF0B22AF4C46001873AD /* LocationResultCell.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +313,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E466C322A07409004AE4EE /* ViewController.swift in Sources */,
+				A1E466F322A07566004AE4EE /* LoginViewController.swift in Sources */,
+				A1E466FB22A08A90004AE4EE /* File.swift in Sources */,
+				A1D6CF0822AF166D001873AD /* Addlocation.swift in Sources */,
 				A1E466C122A07409004AE4EE /* AppDelegate.swift in Sources */,
+				A1E466FF22A0A8A8004AE4EE /* UserInfo.swift in Sources */,
+				A1D6CF0A22AF2CF3001873AD /* StusentLocationGlobal.swift in Sources */,
+				A1E466FD22A08AD2004AE4EE /* login.swift in Sources */,
+				A1D6CF0622AEEF15001873AD /* studentDetiledInformation.swift in Sources */,
+				A1E4670122A0AB57004AE4EE /* API.swift in Sources */,
+				A1D6CF0C22AF4C46001873AD /* LocationResultCell.swift in Sources */,
+				A115AD2B22B4A75B00E20F0F /* listOfStuLocations.swift in Sources */,
+				A115AD2922B48EB700E20F0F /* AddLocationPart2.swift in Sources */,
+				A1E466F522A077F2004AE4EE /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +501,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPNJ9K6QTZ;
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPNJ9K6QTZ;
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
