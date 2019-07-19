@@ -29,22 +29,45 @@ This project is an app with a map that shows information posted by other student
 
 - clone this projet by adding this line to your Trminal
 
-`https://github.com/Norah-ALShareef/Virtual-Tourist-Udacity-FinalProject.git`
+`https://github.com/Norah-ALShareef/OnTheMap.git`
 
-- creat an account on [Flikr](https://www.flickr.com)
+- this URL to Login`"https://onthemap-api.udacity.com/v1/session"`
+
+- this URL TO POST Student location `"https://onthemap-api.udacity.com/v1/StudentLocation"`
 
 ## implemntation
 
-This project containe 3 ViewControolers : 
-- `mainPage(MapView).swift` This view contain mapKit function and FetchedResult functions onse the user taps the location `IBAction` will call it function and adds a pin to the map onse that pin has been taped it will perform the Fetched and move to the `photoSelectedLocationColectionView`.
-- `photoSelectedLocationColectionView` Here tha magic will happen two Fetche function has been performed `NSFetchedResultsController<Photo>!` &  `NSFetchedResultsController<Pin>!` and collectionViw functions to show the pics  related to the pin and delet thim.
-- `NeViewController`  same as photoSelectedLocationColectionView MapView here allows the user to preview the pic from pins  
+- we need to make 2 reqists 
+  - one for login session 👇
+  
+  <img width="916" alt="Screen Shot 2019-07-19 at 8 24 36 PM" src="https://user-images.githubusercontent.com/40995452/61553575-5bca9c80-aa63-11e9-9f8a-174dd51e0758.png">
+  
+  
+  - the athor for posting student location👇
+  
+  
+ <img width="880" alt="Screen Shot 2019-07-19 at 8 24 51 PM" src="https://user-images.githubusercontent.com/40995452/61553581-5cfbc980-aa63-11e9-8bac-d8a1e73a5ba0.png">
 
+  
+  
+  
+- Then mapviewView Controller to desply all the student locations like `MapViewController`
+- after that view controler adding new pin. Here i make it 2 step prosess as folow : 
+  - first viewcontroller alows the user to write locaton and linkedin link 👇 `Addlocation`
+  
+  <img width="441" alt="Screen Shot 2019-07-19 at 7 03 39 PM" src="https://user-images.githubusercontent.com/40995452/61549988-16ee3800-aa5a-11e9-8ba0-ed54279e776b.png">
+  
+  - Then mapView controller to preview the location and adding it or cancel it 👇 `AddLocationPart2`
+  
+  <img width="454" alt="Screen Shot 2019-07-19 at 7 04 27 PM" src="https://user-images.githubusercontent.com/40995452/61549990-19e92880-aa5a-11e9-9096-e655fe6a8e9e.png">
+
+   
+  
 ## Requirements 
 
 - xcode 10
 - Swift 5
-- flickr Key
+- udacity Account 
 
 ## Copyright 
 
