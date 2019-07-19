@@ -24,19 +24,19 @@ This project is an app with a map that shows information posted by other student
 
 ## implemntation
 
-- we need to make 2 reqists 
+- we need to make 2 requests 
   - one for login session 👇
   
   <img width="916" alt="Screen Shot 2019-07-19 at 8 24 36 PM" src="https://user-images.githubusercontent.com/40995452/61553575-5bca9c80-aa63-11e9-9f8a-174dd51e0758.png">
   
   
-  - the athor for posting student location👇
+  - another one is for posting student location👇
   
   
  <img width="880" alt="Screen Shot 2019-07-19 at 8 24 51 PM" src="https://user-images.githubusercontent.com/40995452/61553581-5cfbc980-aa63-11e9-8bac-d8a1e73a5ba0.png">
  
-- Then mapviewView Controller to desply all the student locations like `MapViewController`
-- after that view controler adding new pin. Here i make it 2 step prosess as folow : 
+- Then mapviewView Controller to display all the student locations like `MapViewController`
+- after that view controler adding new pin. Here i make it 2 step process as folow : 
   - first viewcontroller alows the user to write locaton and linkedin link 👇 `Addlocation`
   
   <img width="441" alt="Screen Shot 2019-07-19 at 7 03 39 PM" src="https://user-images.githubusercontent.com/40995452/61549988-16ee3800-aa5a-11e9-8ba0-ed54279e776b.png">
